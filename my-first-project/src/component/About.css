@@ -1,0 +1,55 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .about-container h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .chef-bio, .our-story {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .chef-bio h3, .our-story h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .chef-bio p, .our-story p {
+    color: #666;
+  }
+  
+  /* Animation for background color */
+  @keyframes colorChange {
+    0% {
+      background-color: #ff9966; /* Initial background color */
+    }
+    50% {
+      background-color: #ff5e62; /* Intermediate color */
+    }
+    100% {
+      background-color: #ffb88c; /* Final background color */
+    }
+  }
+  
+  .about-container.animated-background {
+    animation: colorChange 10s infinite alternate; /* Change duration and timing function as desired */
+  }
+  
